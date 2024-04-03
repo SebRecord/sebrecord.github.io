@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    background-color: rgb(16, 22, 47);
+    font-size: 18px;
+}
+h1 {
+    color:  rgb(102, 196, 255);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.5;
+    display: inline-block;
+}
+h2 {
+    color:  rgb(102, 196, 255);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+h3 {
+    color:  rgb(102, 196, 255);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+p {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 1.5;
+}
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.menuIcon {
+    height: 64px;
+    float: right;
+}
+section ul {
+    margin: 1rem 1rem;
+}
+section ul li {
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(255, 255, 255);
+}
+thead td {
+    padding: 0.5rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(16, 22, 47);
+    font-size: 16px;
+    font-weight: 700;
+}
+tbody td {
+    padding: 0.5em;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+}
+td.code {
+    font-family: "Reddit Mono","Mulish", sans-serif;
+    background-color: rgb(20, 20, 20);
+    color: rgb(200, 200, 200);
+    font-size: 18px;
+    font-weight: 400;
+}
+span.tag {
+    color: rgb(102, 196, 255);
+}
