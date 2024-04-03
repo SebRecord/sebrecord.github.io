@@ -1,11 +1,98 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Seb's page</title>
-  </head>
-  <body>
-    <h1>Seb Record</h1>
-    <p>Test website to discover how GitHub works</p>
-    
-  </body>
+    <head>
+        <title>Web Development Cheatsheet</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/cheatsheet.css">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="../imgs/menu.png" class="menuIcon" id="menuIcon">
+        </header>
+        <main>
+            <h1>Web Development Cheatsheet</h1>
+            <section>
+                <h2>HTML</h2>
+                <p>HyperText Markup Language (HTML) is used by web developers to create the skeletal structure of a webpage.<br><br>Anytime a new HTML document is created the following must be included:</p>
+                <ul>
+                    <li>The Doctype tag</li>
+                    <li>Opening and closing html tags within in which all other parts of the document are contained</li>
+                    <li>A head section to conatin the title and links to stylesheets, scripts, etc..</li>
+                    <li>A body section to conatin all the elements of the webpage itself</li>
+                </ul>
+                <h3>Head section tags</h3>
+                <br>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Tag</td>
+                            <td>Name</td>
+                            <td>Description</td>
+                            <td>Attributes</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="code">&lt;<span class="tag">title</span>&gt;</td>
+                            <td>Title</td>
+                            <td>This is a tag used in the head section to name the webpage, this will appear in the tab in the user's browser.</td>
+                            <td>N/A</td>
+                        </tr>
+                        <tr>
+                            <td class="code">&lt;<span class="tag">link</span>&gt;</td>
+                            <td>Link</td>
+                            <td>This is a tag used in the head section most commonly to refer to an external stylesheet.</td>
+                            <td>rel, href, hreflang, media, referrerpolicy, sizes, type</td>
+                        </tr>
+                        <tr>
+                            <td class="code">&lt;<span class="tag">meta</span>&gt;</td>
+                            <td>Meta</td>
+                            <td>This is a tag used to define the metadata of an HTML. (data about data)</td>
+                            <td>charset, content, http-equiv, name</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+                <br>
+                <h3>Body section tags</h3>
+                <br>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Tag</td>
+                            <td>Name</td>
+                            <td>Description</td>
+                            <td>Attributes</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="code">&lt;<span class="tag">div</span>&gt;</td>
+                            <td>Division</td>
+                            <td>Used as a container for HTML elements and helps to define a section of the document. Other tags are often used in it's place when creating a more semantic HTML document, such as: header, main, section, article, and footer.</td>
+                            <td>Global and Event attributes</td>
+                        </tr>
+                        <tr>
+                            <td class="code">&lt;<span class="tag">h1</span>&gt;</td>
+                            <td>Headings</td>
+                            <td>HTML suppoprts 6 different heading tags (h1-h6).</td>
+                            <td>Global attributes only</td>
+                        </tr>
+                        <tr>
+                            <td class="code">&lt;<span class="tag">p</span>&gt;</td>
+                            <td>Paragraph</td>
+                            <td>This is tag defines a paragraph, often used for the main bodies of text on a webpage.</td>
+                            <td>Global and Event attributes</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
 </html>
